@@ -90,7 +90,7 @@ body{
                      /* Agregar efecto de botón presionado */
                      transition: transform 0.3s, box-shadow 0.3s;
                      &:hover {
-                         background-color: #9f3647;
+                         background-color: rgb(74, 74, 233) /*#9f3647;*/
                         /* transform: scale(0.95);
                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
                      }
