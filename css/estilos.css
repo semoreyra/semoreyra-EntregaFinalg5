@@ -21,14 +21,14 @@
     background: rgb(23, 23, 23);
 }
    
-/* Handle */
+/* Handle #9f3647*/
 ::-webkit-scrollbar-thumb {
-    background: #9f3647;
+    background: #2986cc ;
 }
   
-/* Handle on hover */
+/* Handle on hover #9f3647*/
 ::-webkit-scrollbar-thumb:hover {
-    background:#9f3647;
+    background: #2986cc;
 }
 body{
     background-color: #181419;
@@ -37,9 +37,9 @@ body{
      scrollbar-width: thin;*/
 }
 
-/*ESTILOS HEADER PARA ESCRITORIO*/
+/*ESTILOS HEADER PARA ESCRITORIO #9f3647*/
 .header{
-    background-color:#9f3647;
+    background-color: #2986cc;
     color:#ffffff;
     height: 10vh;
     position:sticky;
@@ -155,8 +155,8 @@ body{
             font-weight: 400;
             margin-bottom: 1rem;
         }
-        .botonRegistrarse{
-            background-color:#9f3647;
+        .botonRegistrarse{ /*#9f3647*/
+            background-color:  #2986cc;
             color: #ffffff;
             padding: 1rem 2rem;
             border-radius: 5px;
@@ -165,8 +165,8 @@ body{
             text-decoration: none;
              /* Agregar efecto de botón presionado */
              transition: transform 0.3s, box-shadow 0.3s;
-             &:hover {
-                 background-color: #9f3647;
+             &:hover { /*#9f3647*/
+                 background-color: #2986cc;
                  transform: scale(0.95);
                  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
              }
@@ -186,7 +186,7 @@ body{
             font-weight: 700;
             margin-bottom: 1rem;
         }
-        .buscadorPeliculas{
+        .buscadorConciertos{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -202,8 +202,8 @@ body{
                 padding: 0px 20px;
                 width: 500px;
             }
-            .botonBuscador{
-                background-color:#9f3647;
+            .botonBuscador{ /* #9f3647*/
+                background-color: #2986cc;
                 display: inline-block;
                 color:#ffffff;
                 height: 50px;
@@ -216,8 +216,8 @@ body{
                 text-align: center;
                  /* Agregar efecto de botón presionado */
                  transition: transform 0.3s, box-shadow 0.3s;
-                 &:hover {
-                     background-color: #9f3647;
+                 &:hover { /*#9f3647*/
+                     background-color: #2986cc;
                      transform: scale(0.95);
                      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
                  }
@@ -225,7 +225,7 @@ body{
         }
        
     }
-    .peliculasTendencia{
+    .conciertosTendencia{
         width:80%;
         margin: 0 auto;
         text-align: center;
@@ -235,7 +235,7 @@ body{
             font-weight: 700;
             margin-bottom: 40px;
         }
-        .peliculas{
+        .conciertos{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -243,7 +243,7 @@ body{
             a{
                 text-decoration: none;
                 color: #ffffff;
-                .pelicula{
+                .concierto{
                     width:200px;
                     height: 300px;
                     position: relative;
@@ -258,7 +258,7 @@ body{
                         border-radius: 10px;
                     }
                   
-                    .tituloPelicula{
+                    .tituloConcierto{
                         z-index: 2;
                         position: absolute;
                         text-align: center;
@@ -277,8 +277,8 @@ body{
     
                         }
                     }
-                    &:hover{
-                       box-shadow: 0 0 30px #9f3648cd;
+                    &:hover{ /* #9f3648cd*/
+                       box-shadow: 0 0 30px  #2986cc;
                        transform: scale(1.1);
                       
                     }
@@ -294,7 +294,7 @@ body{
                         width: 100%;
                         height: 100%;
                         border-radius: 10px;
-                        background-color: #9f3648; /* Color rojo transparente */
+                        background-color: #2986cc; /*#9f3648cd Color rojo transparente */
                         z-index: 1; /* Para asegurarse de que esté sobre la imagen */
                     }
                 }
@@ -306,7 +306,7 @@ body{
             box-sizing: content-box;
             margin-top:50px;
             margin-left:20px;
-            background-color:#9f3647;
+            background-color:#2986cc; /* #9f3647*/
             color: #ffffff;
             padding: 1rem 1rem;
             border-radius: 5px;
@@ -317,14 +317,14 @@ body{
              /* Agregar efecto de botón presionado */
              transition: transform 0.3s, box-shadow 0.3s;
              &:hover {
-                 background-color: #9f3647;
+                 background-color: #2986cc; /*#9f3647;*/
                  transform: scale(0.95);
                  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
              }
 
         }
     }
-    .peliculasAclamadas{
+    .conciertosAclamadas{
         width:80%;
         margin: 0 auto;
         text-align: center;
@@ -343,7 +343,7 @@ body{
             justify-content: flex-start;
             align-items: flex-start;
             padding: 0px 0px 40px 0px;
-            .peliculaItem{
+            .conciertoItem{
                 border-radius: 25px;
                 width: 170px;
                 min-width: 170px;
@@ -389,7 +389,7 @@ body{
             .tituloSection{
                 font-size: 1.6rem;
             }
-            .buscadorPeliculas{
+            .buscadorConciertos{
                 .inputBuscador{
                     font-size: 1rem;
                     height: 40px;
@@ -402,23 +402,23 @@ body{
                 }
             }
         }
-        .peliculasTendencia{
+        .conciertosTendencia{
             width: 95%;
             .tituloSection{
                 font-size: 2rem;
             }
-            .peliculas{
+            .conciertos{
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
               
                 a{
                     width: 100%;
-                    .pelicula{
+                    .concierto{
                         width: 100%;
                         height: 500px;
                        
-                        .tituloPelicula{
+                        .tituloConcierto{
                             h4 {
                                 font-size: 1rem;
                             }
@@ -438,12 +438,12 @@ body{
                 font-size: 0.8rem;
             }
         }
-        .peliculasAclamadas{
+        .conciertosAclamadas{
             .tituloSection{
                 font-size: 2rem;
             }
             .aclamadas{
-                .peliculaItem{
+                .conciertoItem{
                     width: 150px;
                     min-width: 150px;
                     font-size: 15px;
@@ -460,7 +460,7 @@ body{
 
 /*ESTILOS ESCRITORIO FOOTER*/
 .footer{
-    background-color:#9f3647;
+    background-color:#2986cc; /*#9f3647;*/
     color:#ffffff;
     height: 15vh;
     display: flex;
@@ -478,7 +478,7 @@ body{
                 font-weight: 700;
                 font-size: 1.2rem;
             }
-            .administradorPeliculas{
+            .administradorconciertos{
                 background-color: #181419;
                 color: white;
                 padding: 0.5rem 1rem;
@@ -509,7 +509,7 @@ body{
                 .linkNav{
                     font-size: 1rem;
                 }
-                .administradorPeliculas{
+                .administradorconciertos{
                     padding: 0.5rem 0.8rem;
                 }
             }
@@ -571,7 +571,7 @@ body{
                     padding: 0px 20px;
                     font-size: 1.2rem;
                     border-radius: 20px;
-                    border: 2px solid #9f3647;
+                    border: 2px solid #2986cc;/* #9f3647; */
                     background-color: #333333;
                     outline: none;
                     color:white;
@@ -588,8 +588,8 @@ body{
                 .boton{
                     width: 87%;
                     box-sizing: content-box;
-                    background-color:#9f3647;
-                    border: 2px solid #9f3647;
+                    background-color:#2986cc; /*#9f3647;*/
+                    border: 2px solid #2986cc; /*#9f3647;*/
                     color: #ffffff;
                     padding: 1rem 1rem;
                     border-radius: 5px;
@@ -816,7 +816,7 @@ body{
 }
 
 hr{
-    border: 1px solid #9f3647;
+    border: 1px solid #2986cc; /* #9f3647; */
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
