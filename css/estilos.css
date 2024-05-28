@@ -337,27 +337,30 @@ body{
         }
         .aclamadas{
             overflow-x: scroll;
-            overflow-y: hidden;
             width: 100%;
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            padding: 0px 0px 40px 0px;
+            padding: 10px 0px 40px 0px;
             .conciertoItem{
                 border-radius: 25px;
-                width: 170px;
+                width: 100%;
                 min-width: 170px;
                 font-size: 20px;
                 cursor: pointer;
                 margin-left: 30px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                height: 100%;
+                max-width: 170px;
+                flex: 1 0 auto;
                
                 .imgAclamada{
                     border-radius: 5%;
-                    width: 95%;
-                    height: 95%;
+                    width: 100%;
+                    height: auto;
+                    display: inline-block;
+                    height: auto;
+                    max-width: 100%;
+                    aspect-ratio: 9 / 13;
                     object-fit: cover;
                 }
                 
